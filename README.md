@@ -17,7 +17,7 @@ The AppLovin MAX BidMachine mediation adapter for iOS, distributed via Swift Pac
    ```
    https://github.com/AppLovin/AppLovin-MAX-Swift-Package-BidMachine
    ```
-3. Select **Exact Version** and enter the encoded version (e.g. `3070100.0.0` for adapter version `3.7.1.0.0`).
+3. Select **Exact Version** and enter the encoded version (e.g. `307010000.0.0` for adapter version `3.7.1.0.0`).
 4. Add the `AppLovinMediationBidMachineAdapter` product to your app target.
 
 ### Package.swift
@@ -26,7 +26,7 @@ The AppLovin MAX BidMachine mediation adapter for iOS, distributed via Swift Pac
 dependencies: [
     .package(
         url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-BidMachine.git",
-        exact: "3070100.0.0"
+        exact: "307010000.0.0"
     )
 ]
 ```
