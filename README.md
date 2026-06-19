@@ -38,4 +38,4 @@ dependencies: [
 
 ## More information
 
-- [AppLovin MAX iOS Integration Guide](https://support.axon.ai/en/max/ios/overview/integration)
+- [AppLovin MAX iOS Integration Guide](https://support.applovin.com/en/max/ios/overview/integration)
