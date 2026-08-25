@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/bidmachine/BidMachine-SPM.git", exact: "3.7.1")
+        .package(url: "https://github.com/bidmachine/BidMachine-SPM.git", exact: "3.8.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationBidMachineAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bidmachine-adapter/AppLovinMediationBidMachineAdapter-3.7.1.0.0.zip",
-            checksum: "feff3dc198dd1ab4a6b160c9b4405de61099052efe062b679b6c0d0e971fe072"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bidmachine-adapter/AppLovinMediationBidMachineAdapter-3.8.0.0.0.zip",
+            checksum: "ce03a0e376e7de7a84e638e709cb6ec229dc1333f699f129c179bf8e5e7b97ba"
         )
     ]
 )
