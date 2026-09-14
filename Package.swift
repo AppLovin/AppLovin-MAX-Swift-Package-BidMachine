@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationBidMachineAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationBidMachineAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationBidMachineAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bidmachine-adapter/AppLovinMediationBidMachineAdapter-3.8.0.0.0.zip",
-            checksum: "ce03a0e376e7de7a84e638e709cb6ec229dc1333f699f129c179bf8e5e7b97ba"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/bidmachine-adapter/AppLovinMediationBidMachineAdapter-3.8.0.0.1.zip",
+            checksum: "2dbc52cb24d800084cc67e5a898b8d4684efe5f6f4dc60f895d1acc0b4d69812"
         )
     ]
 )
